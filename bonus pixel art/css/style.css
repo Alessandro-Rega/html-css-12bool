@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+/* row */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+}
+
+/* colonne */
+
+.col-1 {
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.box {
+    min-height: 50px;
+    /* border: 1px solid black; */
+}
+
+
+/* colori */
+
+.nero{
+    background-color: black;
+}
+
+.bianco{
+    background-color: white;
+}
+
+.rosso{
+    background-color: red;
+}
